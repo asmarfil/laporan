@@ -1,0 +1,45 @@
+---
+---
+---
+
+Membuat situs web statis di GitHub dengan menggunakan framework Jekyll cukup mudah. Jekyll adalah generator situs statis yang memungkinkan Anda membuat situs web tanpa perlu mengelola server atau basis data. Berikut adalah langkah-langkah umumnya:
+
+1.Persiapkan Repository GitHub:
+Buat repository baru di GitHub.
+Pastikan repository memiliki nama yang sesuai dengan format <username>.github.io jika Anda ingin menggunakan GitHub Pages untuk meng-host situs Anda secara gratis. Jika Anda ingin membuat proyek di dalam repository yang sudah ada, Anda dapat memberikan nama yang sesuai dengan proyek tersebut.
+
+2. Install Jekyll:
+Pastikan Ruby sudah terinstal di komputer Anda. Jekyll ditulis dalam Ruby.
+Buka terminal dan jalankan perintah berikut untuk menginstal Jekyll dan Bundler:
+Copy code
+gem install jekyll bundler
+
+3. Inisialisasi Proyek Jekyll:
+Pindah ke direktori tempat Anda ingin menyimpan proyek Jekyll.
+Jalankan perintah berikut untuk membuat proyek Jekyll baru:
+Copy code
+jekyll new namaproyek
+
+4. Pindah ke Direktori Proyek:
+Pindah ke direktori proyek yang baru saja dibuat:
+Copy code
+cd namaproyek
+5. Jalankan Server Lokal untuk Pengembangan:
+Gunakan Bundler untuk menjalankan server lokal dan melihat situs Anda saat dikembangkan:
+Copy code
+bundle exec jekyll serve
+Buka browser dan kunjungi http://localhost:4000 untuk melihat situs Anda secara lokal.
+6. Edit Konten:
+Sesuaikan konten dan layout di dalam direktori proyek sesuai kebutuhan Anda. File-file Markdown akan dikompilasi menjadi halaman HTML oleh Jekyll.
+7. Commit dan Push ke GitHub:
+Setelah Anda puas dengan perubahan, commit dan push perubahan ke repository GitHub Anda.
+8. Aktifkan GitHub Pages:
+Buka halaman repository di GitHub.
+Pergi ke tab "Settings".
+Gulir ke bawah ke bagian "GitHub Pages".
+Pilih branch yang berisi kode sumber situs (biasanya main atau master) dan simpan.
+9. Tunggu sejenak:
+GitHub akan mengambil beberapa saat untuk memproses perubahan dan mempublikasikan situs Anda di GitHub Pages.
+Setelah langkah-langkah ini selesai, situs Anda akan dapat diakses melalui https://<username>.github.io (sesuai nama repository jika menggunakan GitHub Pages). Jika Anda menggunakan proyek di dalam repository yang sudah ada, Anda akan menemukan situs web statis di https://<username>.github.io/namaproyek.
+
+Pastikan untuk membaca dokumentasi resmi Jekyll (https://jekyllrb.com/) untuk informasi lebih lanjut dan penyesuaian lanjutan.
