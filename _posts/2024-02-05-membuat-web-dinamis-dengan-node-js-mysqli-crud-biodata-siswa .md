@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "membuat web dinamis dengan node js,mysqli crut biodata siswa"
+title:  "membuat web dinamis dengan node js,mysqli crud biodata siswa"
 date:   2024-02-05 14:40:37 +0800
 categories: jekyll 
 ---
