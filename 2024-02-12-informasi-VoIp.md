@@ -1,6 +1,6 @@
 # 1. Apa pengertian Voip? 
 Jawaban:
-Voice over Internet Protocol (VoIP) adalah teknologi yang memungkinkan pengiriman suara dan data melalui jaringan internet. Dalam sistem tradisional, suara dikirimkan melalui saluran telepon konvensional menggunakan sinyal analog, sedangkan dalam VoIP, suara diubah menjadi data digital yang kemudian dikirimkan melalui jaringan internet menggunakan protokol IP (Internet Protocol).
+Voice over Internet Protocol (VoIP) adalah teknologi yang memungkinkan pengiriman suara dan data melalui jaringan internet. Dalam sistem tradisional, suara dikirimkan melalui saluran telepon konvensional menggunakan sinyal analog, sedangkan dalam VoIP, suara diubah menjadi data digital yang kemudian dikirimkan melalui jaringan internet menggunakan protokol IP (Internet Protocol). 
 # 2. Apa kegunaan Voip?
 Jawaban:
 VoIP (Voice over Internet Protocol) digunakan untuk melakukan panggilan suara melalui jaringan internet. Ini memungkinkan pengguna untuk berkomunikasi secara efisien dan hemat biaya, baik dalam panggilan jarak dekat maupun jarak jauh. VoIP juga memungkinkan pengguna untuk mengakses berbagai fitur tambahan seperti panggilan konferensi, voicemail, dan integrasi dengan aplikasi bisnis. Singkatnya, kegunaan VoIP adalah untuk menyediakan sarana komunikasi suara yang modern, fleksibel, dan ekonomis.
