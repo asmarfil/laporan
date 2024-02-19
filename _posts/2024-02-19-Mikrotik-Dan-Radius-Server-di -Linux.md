@@ -33,9 +33,9 @@ Ada beberapa opsi server RADIUS yang tersedia untuk Linux, seperti FreeRADIUS at
 
 2. Instal FreeRADIUS:
 Buka terminal di Linux dan instal FreeRADIUS dengan menggunakan manajer paket yang sesuai. Misalnya, untuk Ubuntu/Debian, jalankan perintah:
-sql
+```sql
 sudo apt-get install freeradius
-
+```
 3. Konfigurasi FreeRADIUS:
 Konfigurasi FreeRADIUS sesuai dengan kebutuhan Anda. File konfigurasi utama biasanya terletak di /etc/freeradius/.
 
@@ -44,9 +44,9 @@ Tambahkan pengguna dan atur parameter otentikasi mereka dalam file konfigurasi F
 
 5. Mulai Layanan FreeRADIUS:
 Setelah konfigurasi selesai, mulai layanan FreeRADIUS dengan perintah:
-sql
+```sql
 sudo systemctl start freeradius
-
+```
 6. Verifikasi:
 Verifikasi bahwa FreeRADIUS berjalan dengan benar dan melayani permintaan otentikasi.
 Setelah kedua aplikasi terinstal dan dikonfigurasi dengan benar, Anda dapat mengintegrasikan MikroTik dengan server RADIUS untuk otentikasi pengguna. Pastikan untuk mengacu pada dokumentasi resmi dari MikroTik dan FreeRADIUS untuk konfigurasi yang lebih rinci sesuai dengan kebutuhan Anda.
