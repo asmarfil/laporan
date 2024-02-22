@@ -7,31 +7,31 @@ Langkah 2: Instalasi LAMP Stack
 DaloRadius memerlukan lingkungan server web yang dijalankan di atas LAMP stack (Linux, Apache, MySQL, PHP). Berikut cara menginstalnya:
 
 bash
-Copy code
+```sql
 sudo apt update
 sudo apt install apache2 mysql-server php libapache2-mod-php php-mysql
+```
 Setelah menginstal paket-paket ini, pastikan Apache dan MySQL dijalankan:
-
 bash
-Copy code
+```sql
 sudo systemctl start apache2
 sudo systemctl start mysql
+```
 Langkah 3: Buat Database MySQL
 Buatlah database MySQL baru untuk DaloRadius:
-
 bash
-Copy code
+```sql
 sudo mysql -u root -p
-Masukkan password MySQL Anda ketika diminta, kemudian jalankan perintah SQL berikut:
+```
 
-sql
-Copy code
+Masukkan password MySQL Anda ketika diminta, kemudian jalankan perintah SQL berikut:
+```sql
 CREATE DATABASE radius;
 GRANT ALL ON radius.* TO 'radius'@'localhost' IDENTIFIED BY 'password';
 FLUSH PRIVILEGES;
 EXIT;
+```
 Ganti 'password' dengan kata sandi yang Anda inginkan.
-
 Langkah 4: Instalasi FreeRADIUS
 Instal FreeRADIUS melalui paket manajer apt:
 
