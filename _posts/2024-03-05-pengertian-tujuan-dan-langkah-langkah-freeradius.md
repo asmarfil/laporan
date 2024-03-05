@@ -12,26 +12,46 @@
   sudo apt update
 ```
 ## install aplikasi
+```sql
   sudo apt install freeradius freeradius
+```
 ## cek insalasi
+```sql
   sudo systemctl stop freeradius
+```
+```sql
   sudo freeradius -X
+```
 ### pastikan
 # Ready to process requests
 
 ## cek servise
+```sql
   sudo systemctl start freeradius
+```
+  ```sql
   sudo systemctl enable freeradius
+```
+```sql
   sudo systemctl status freeradius
+``` 
 ## menambah user
+```sql
   sudo nano /etc/freeradius/3.0/users
+```
   john Cleartext-Password := "coba1234"
   simpan
+  ```sql
   sudo systemctl restart freeradius
+```
 ## mengetes
+```sql
   radtest john coba1234 localhost 0 testing123
+```
 ## menambah client nas mikrotik di free radius
+```sql
   sudo nano /etc/freeradius/3.0/clients.conf
+```
   client mikrotik {
   ipaddr = 192.168.200.1
   secret = testing123
@@ -39,5 +59,7 @@
   nastype = mikrotik
 }
 # restart  kembali
+```sql
 sudo systemctl restart freeradius
+```
 
