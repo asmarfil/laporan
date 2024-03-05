@@ -38,5 +38,8 @@ sudo apt install freeradius
         shortname = mikrotik_client
         nastype = mikrotik
     }
-jika selesai klik ctrl x lali klik Y terus enter 
+jika selesai klik ctrl x lali klik Y terus enter
+
+![WhatsApp Image 2024-03-05 at 15 06 35 (1)](https://github.com/asmarfil/laporan/assets/156057446/8123042d-94d7-4d54-b59c-c37fff95da64)
+
     
