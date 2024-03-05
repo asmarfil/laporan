@@ -8,7 +8,9 @@
 
 # Langkah-langkah Menginstal FreeRADIUS
 ## update
+ ```sql
   sudo apt update
+```
 ## install aplikasi
   sudo apt install freeradius freeradius
 ## cek insalasi
